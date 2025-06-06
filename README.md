@@ -14,12 +14,12 @@ This project is a personal resume website that showcases my professional experie
 ## Technologies Used
 - HTML
 - CSS
-- JavaScript
+
 
 ## How to Run
 1. Clone the repository:
    ```bash
-   git clone https://github.com/saloni1771/resume-website.git
+   git clone https://github.com/saloni1771/MyWebsite.git
    ```
-   
+2. Live on 
 > ⚠️ This repository is intended for viewing only. Please do not request collaborator access. Contributions can be made via pull requests.
