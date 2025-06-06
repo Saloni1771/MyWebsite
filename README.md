@@ -21,5 +21,5 @@ This project is a personal resume website that showcases my professional experie
    ```bash
    git clone https://github.com/saloni1771/MyWebsite.git
    ```
-2. Live on 
+2. Live on https://saloni1771.github.io/MyWebsite/
 > ⚠️ This repository is intended for viewing only. Please do not request collaborator access. Contributions can be made via pull requests.
