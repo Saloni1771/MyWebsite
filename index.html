@@ -1,312 +1,313 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Saloni Patidar | Software Engineer & Data Analyst</title>
-    <link rel="stylesheet" href="style1.css" />
-  </head>
-  <body>
-    <!-- HEADER with background and hamburger -->
-    <header>
-      <div class="header-container">
-        <div class="header-text">
-          <h1>Saloni Patidar</h1>
-          <p>Software Engineer | Data Analyst | Problem Solver</p>
-          <p>
-            <a href="mailto:patidarsaloni22@gmail.com"
-              ><img
-                src="images/email.png"
-                alt="Email"
-                style="width: 17px; height: 17px; vertical-align: middle"
-              />
-              Email</a
-            >
-            |
-            <a
-              href="https://www.linkedin.com/in/salonipatidar1771/"
-              target="_blank"
-            >
-              <img
-                src="images/Linkedin.png"
-                alt="LinkedIn"
-                style="width: 21px; height: 21px; vertical-align: middle"
-              />
-              LinkedIn
-            </a>
-            |
-            <a href="https://github.com/Saloni1771" target="_blank">
-              <img
-                src="images/github.png"
-                alt="Github"
-                style="width: 21px; height: 21px; vertical-align: middle"
-              />
-              GitHub
-            </a>
-          </p>
-          <a
-            href="assets/Saloni_Patidar_Resume_SDE1.pdf"
-            class="btn"
-            download
-            target="_blank"
-            >Download Resume</a
-          >
-        </div>
-        <div class="profile-photo">
-          <!-- <img
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Saloni Patidar | Software Engineer & Data Analyst</title>
+  <link rel="stylesheet" href="style1.css" />
+</head>
+
+<body>
+  <!-- HEADER with background and hamburger -->
+  <header>
+    <div class="header-container">
+      <div class="header-text">
+        <h1>Saloni Patidar</h1>
+        <p>Software Engineer | Data Analyst | Problem Solver</p>
+        <p>
+          <a href="mailto:patidarsaloni22@gmail.com"><img src="images/email.png" alt="Email"
+              style="width: 17px; height: 17px; vertical-align: middle" />
+            Email</a>
+          |
+          <a href="https://www.linkedin.com/in/salonipatidar1771/" target="_blank">
+            <img src="images/Linkedin.png" alt="LinkedIn" style="width: 21px; height: 21px; vertical-align: middle" />
+            LinkedIn
+          </a>
+          |
+          <a href="https://github.com/Saloni1771" target="_blank">
+            <img src="images/github.png" alt="Github" style="width: 21px; height: 21px; vertical-align: middle" />
+            GitHub
+          </a>
+        </p>
+        <a href="assets/Saloni_Patidar_Resume_SDE1.pdf" class="btn" download target="_blank">Download Resume</a>
+      </div>
+      <div class="profile-photo">
+        <!-- <img
             src="https://drive.google.com/uc?export=view&id=1TfTpFAJy3JvOIfbqxK2TPvTZkjYuXtn5"
             alt="Saloni Patidar"
           /> -->
-          <iframe
-            src="https://drive.google.com/file/d/1TfTpFAJy3JvOIfbqxK2TPvTZkjYuXtn5/preview"
-            width="300"
-            height="200"
-          ></iframe>
-        </div>
+        <iframe src="https://drive.google.com/file/d/1TfTpFAJy3JvOIfbqxK2TPvTZkjYuXtn5/preview" width="300"
+          height="200"></iframe>
       </div>
-    </header>
+    </div>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#achievements">Achievements</a></li>
+      <!-- <li><a href="#certifications">Certifications</a></li> -->
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <!-- ASIDE PANEL -->
+  <aside id="sidebar">
+    <img src="images/SaloniImage01.jpg" alt="Saloni Patidar" />
+    <h2>Hello!</h2>
+    <p>
+      I’m a passionate engineer who loves building smart, scalable systems and
+      analyzing real-world data. I mix backend logic with machine learning to
+      build practical solutions that matter.
+    </p>
     <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#achievements">Achievements</a></li>
-        <li><a href="#certifications">Certifications</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+      <a href="#about" onclick="toggleMenu()">About Me</a>
+      <a href="#education" onclick="toggleMenu()">Education</a>
+      <a href="#experience" onclick="toggleMenu()">Experience</a>
+      <a href="#projects" onclick="toggleMenu()">Projects</a>
+      <a href="#skills" onclick="toggleMenu()">Skills</a>
+      <a href="#achievements" onclick="toggleMenu()">Achievements</a>
+      <!-- <a href="#certifications" onclick="toggleMenu()">Certifications</a> -->
+      <a href="#contact" onclick="toggleMenu()">Contact</a>
     </nav>
-    <!-- ASIDE PANEL -->
-    <aside id="sidebar">
-      <img src="images/SaloniImage01.jpg" alt="Saloni Patidar" />
-      <h2>Hello!</h2>
+  </aside>
+
+  <!-- MAIN CONTENT -->
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
       <p>
-        I’m a passionate engineer who loves building smart, scalable systems and
-        analyzing real-world data. I mix backend logic with machine learning to
-        build practical solutions that matter.
+        I'm a passionate Software Engineer with a strong foundation in
+        algorithms, backend development, and intelligent systems. I love
+        solving practical problems that improve systems and user experience.
       </p>
-      <nav>
-        <a href="#about" onclick="toggleMenu()">About Me</a>
-        <a href="#education" onclick="toggleMenu()">Education</a>
-        <a href="#experience" onclick="toggleMenu()">Experience</a>
-        <a href="#projects" onclick="toggleMenu()">Projects</a>
-        <a href="#skills" onclick="toggleMenu()">Skills</a>
-        <a href="#achievements" onclick="toggleMenu()">Achievements</a>
-        <a href="#certifications" onclick="toggleMenu()">Certifications</a>
-        <a href="#contact" onclick="toggleMenu()">Contact</a>
-      </nav>
-    </aside>
+      <p>
+        My recent work includes automation, NLP, machine learning models, and
+        web development. I'm a lifelong learner driven by curiosity and
+        creativity.
+      </p>
+    </section>
+    <section id="education">
+      <h2>Education</h2>
 
-    <!-- MAIN CONTENT -->
-    <main>
-      <section id="about">
-        <h2>About Me</h2>
+      <h3>B.Tech in Computer Science and Engineering</h3>
+      <p>
+        <strong>Indian Institute of Technology (IIT) Mandi</strong> | 2019 –
+        2023
+      </p>
+      <ul>
+        <li>CGPA: 7.76</li>
+        <li>Minor in Management – CGPA: 8.0</li>
+        <li>
+          Teaching Assistant for Data Structures and Algorithms (DSA) course
+        </li>
+      </ul>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+
+      <h3>
+        Technical Lead – HCL Technologies Pvt Ltd, Chennai, India (Oct 2023 –
+        Present)
+      </h3>
+      <ul>
+        <li>
+          Led the design, development, and deployment of software solutions
+          using Python, C++, MFC, and NLP techniques, improving data
+          processing and automation workflows by 40%.
+        </li>
+        <li>
+          Migrated an embedded console application to a Windows-based MFC
+          framework, enhancing usability and reducing user errors by 40%.
+        </li>
+        <li>
+          Integrated RESTful APIs to enable seamless data exchange and improve
+          system communication.
+        </li>
+        <li>
+          Automated reporting workflows using Excel VBA, reducing processing
+          time by 70% and report generation time by 90%.
+        </li>
+        <li>
+          Managed client databases with 100% accuracy and real-time updates,
+          boosting operational efficiency.
+        </li>
+        <li>
+          Utilized JIRA for project management, streamlining collaboration and
+          task tracking.
+        </li>
+      </ul>
+
+      <h3>Web Development Intern – Neodocto Inc. (Apr 2022 – May 2022)</h3>
+      <ul>
+        <li>
+          Implemented user-friendly features such as product information and
+          availability sections, improving customer navigation and increasing
+          product visibility by 30%.
+        </li>
+        <li>
+          Optimized company database by resolving issues on 10+ critical pages
+          using Excel and SQL, reducing data retrieval time by 40% and
+          improving page load speed by 25%.
+        </li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <div class="project-card">
+        <h3>📌 Codewing – Real-Time Code Collaboration</h3>
+        <h4>Technologies: React.js, Node.js, Firebase, WebRTC, API</h4>
         <p>
-          I'm a passionate Software Engineer with a strong foundation in
-          algorithms, backend development, and intelligent systems. I love
-          solving practical problems that improve systems and user experience.
-        </p>
-        <p>
-          My recent work includes automation, NLP, machine learning models, and
-          web development. I'm a lifelong learner driven by curiosity and
-          creativity.
-        </p>
-      </section>
-      <section id="education">
-        <h2>Education</h2>
-
-        <h3>B.Tech in Computer Science and Engineering</h3>
-        <p>
-          <strong>Indian Institute of Technology (IIT) Mandi</strong> | 2019 –
-          2023
-        </p>
-        <ul>
-          <li>CGPA: 7.76</li>
-          <li>Minor in Management – CGPA: 8.0</li>
-          <li>
-            Teaching Assistant for Data Structures and Algorithms (DSA) course
-          </li>
-        </ul>
-      </section>
-
-      <section id="experience">
-        <h2>Experience</h2>
-
-        <h3>
-          Technical Lead – HCL Technologies Pvt Ltd, Chennai, India (Oct 2023 –
-          Present)
-        </h3>
         <ul>
           <li>
-            Led the design, development, and deployment of software solutions
-            using Python, C++, MFC, and NLP techniques, improving data
-            processing and automation workflows by 40%.
-          </li>
-          <li>
-            Migrated an embedded console application to a Windows-based MFC
-            framework, enhancing usability and reducing user errors by 40%.
-          </li>
-          <li>
-            Integrated RESTful APIs to enable seamless data exchange and improve
-            system communication.
-          </li>
-          <li>
-            Automated reporting workflows using Excel VBA, reducing processing
-            time by 70% and report generation time by 90%.
-          </li>
-          <li>
-            Managed client databases with 100% accuracy and real-time updates,
-            boosting operational efficiency.
-          </li>
-          <li>
-            Utilized JIRA for project management, streamlining collaboration and
-            task tracking.
-          </li>
-        </ul>
-
-        <h3>Web Development Intern – Neodocto Inc. (Apr 2022 – May 2022)</h3>
-        <ul>
-          <li>
-            Implemented user-friendly features such as product information and
-            availability sections, improving customer navigation and increasing
-            product visibility by 30%.
-          </li>
-          <li>
-            Optimized company database by resolving issues on 10+ critical pages
-            using Excel and SQL, reducing data retrieval time by 40% and
-            improving page load speed by 25%.
-          </li>
-        </ul>
-      </section>
-
-      <section id="projects">
-        <h2>Projects</h2>
-
-        <div class="project-card">
-          <h3>📌 Codewing – Real-Time Code Collaboration</h3>
-          <h4>Technologies: React.js, Node.js, Firebase, WebRTC, API</h4>
-          <p>
-            <ul>
-          <li>
-           Developed real-time collaborative code editor integrating chat, video calling and canvas drawing features.
+            Developed real-time collaborative code editor integrating chat, video calling and canvas drawing features.
           </li>
           <li>
             Reduced code-sharing friction by 60% enabling seamless collaboration among developers.
           </li>
           <li>Implemented WebRTC and Socket.io, optimizing real-time communication and peer-to-peer interactions.</li>
         </ul>
-          Demo: <a href="https://prashant280920.github.io/CodeWing/?id=-OS2yQ2sNKY7Jc23MAYZ" alt="CodeWing">Code Wing</a>
+        Demo: <a href="https://prashant280920.github.io/CodeWing/?id=-OS2yQ2sNKY7Jc23MAYZ" alt="CodeWing">Code Wing</a>
         </p>
-        </div>
+      </div>
 
-        <div class="project-card">
-          <h3>📌 Fake News Classifier</h3>
-          <h4>Technologies: Machine Learning, NLP, Python, Tfidf, Naive Bayes, Random Forest, K-NN</h4>
-          <ul><li>Developed a sophisticated machine learning model for fake news detection by leveraging NLP techniques such
-as Tfidf and Count Vectorizer to accurately process and analyze textual data.
-</li><li>Optimized model performance, by testing multiple algorithms (Naive Bayes, Random Forest, K-NN), selecting
-the best classifier.
- </li><li>Deployed feature engineering techniques to enhance text analysis, improving classification accuracy</li></ul>
- Github Repo: <a href="https://github.com/Saloni1771/Fake_news_classifier" alt="CodeWing">Fake_news_classifier</a>
-        </div>
+      <div class="project-card">
+        <h3>📌 Fake News Classifier</h3>
+        <h4>Technologies: Machine Learning, NLP, Python, Tfidf, Naive Bayes, Random Forest, K-NN</h4>
+        <ul>
+          <li>Developed a sophisticated machine learning model for fake news detection by leveraging NLP techniques such
+            as Tfidf and Count Vectorizer to accurately process and analyze textual data.
+          </li>
+          <li>Optimized model performance, by testing multiple algorithms (Naive Bayes, Random Forest, K-NN), selecting
+            the best classifier.
+          </li>
+          <li>Deployed feature engineering techniques to enhance text analysis, improving classification accuracy</li>
+        </ul>
+        Github Repo: <a href="https://github.com/Saloni1771/Fake_news_classifier"
+          alt="CodeWing">Fake_news_classifier</a>
+      </div>
 
-        <div class="project-card">
-          <h3>📌 Resume Analyzer (Coming Soon)</h3>
-          <p>
-            Python, ML, Spring Boot | Upload resume, extract keywords, and match
-            with job roles
-          </p>
-        </div>
-
-        <div class="project-card">
-          <h3>📌 EDA & Visualization – Housing Price Prediction</h3>
-          <p>
-            <i>(In progress)</i> Exploratory data analysis, outlier detection,
-            feature engineering, and model training (Random Forest, XGBoost)
-          </p>
-        </div>
-
-        <div class="project-card">
-          <h3>📌 Customer Segmentation using K-Means</h3>
-          <p>
-            <i>(Planned)</i> Use clustering techniques on e-commerce data to
-            group customers and create targeted strategies
-          </p>
-        </div>
-      </section>
-      <section id="Achievements">
-        <h2></h2>
-
-        <h3>Languages & Programming</h3>
-        <p>Python, Java, C++, SQL, HTML, CSS, JavaScript</p>
-
-        <h3>Data Science & Machine Learning</h3>
+      <div class="project-card">
+        <h3>📌 Resume Analyzer (Coming Soon)</h3>
         <p>
-          Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, TensorFlow (basic),
-          PyTorch (basic), Jupyter Notebook, Google Colab
+          Python, ML, Spring Boot | Upload resume, extract keywords, and match
+          with job roles
         </p>
+      </div>
 
-        <h3>Web & Application Development</h3>
+      <div class="project-card">
+        <h3>📌 EDA & Visualization – Housing Price Prediction</h3>
         <p>
-          React.js, Node.js, REST APIs, Flask, Responsive Design, Git, GitHub
+          <i>(In progress)</i> Exploratory data analysis, outlier detection,
+          feature engineering, and model training (Random Forest, XGBoost)
         </p>
+      </div>
 
-        <h3>Databases</h3>
-        <p>MySQL, PostgreSQL, MongoDB</p>
-
-        <h3>Data Analysis & Visualization</h3>
-        <p>EDA, Feature Engineering, Excel (Advanced), Tableau, Power BI</p>
-      </section>
-      <section id="skills">
-        <h2>Technical Skills</h2>
-
-        <h3>Languages & Programming</h3>
-        <p>Python, Java, C++, SQL, HTML, CSS, JavaScript</p>
-
-        <h3>Data Science & Machine Learning</h3>
+      <div class="project-card">
+        <h3>📌 Customer Segmentation using K-Means</h3>
         <p>
-          Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, TensorFlow (basic),
-          PyTorch (basic), Jupyter Notebook, Google Colab
+          <i>(Planned)</i> Use clustering techniques on e-commerce data to
+          group customers and create targeted strategies
         </p>
+      </div>
+    </section>
+    <section id="skills">
+      <h2>Technical Skills</h2>
 
-        <h3>Web & Application Development</h3>
-        <p>
-          React.js, Node.js, REST APIs, Flask, Responsive Design, Git, GitHub
-        </p>
+      <h3>Languages & Programming</h3>
+      <p>Python, Java, C++, SQL, HTML, CSS, JavaScript</p>
 
-        <h3>Databases</h3>
-        <p>MySQL, PostgreSQL, MongoDB</p>
+      <h3>Data Science & Machine Learning</h3>
+      <p>
+        Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, TensorFlow (basic),
+        PyTorch (basic), Jupyter Notebook, Google Colab
+      </p>
 
-        <h3>Data Analysis & Visualization</h3>
-        <p>EDA, Feature Engineering, Excel (Advanced), Tableau, Power BI</p>
+      <h3>Web & Application Development</h3>
+      <p>
+        React.js, Node.js, REST APIs, Flask, Responsive Design, Git, GitHub
+      </p>
 
-        <h3>Tools & Other Skills</h3>
-        <p>JIRA, VS Code, Agile/Scrum, Debugging, Unit Testing</p>
-      </section>
-    </main>
-    <!-- FOOTER -->
-    <footer>
+      <h3>Databases</h3>
+      <p>MySQL, PostgreSQL, MongoDB</p>
+
+      <h3>Data Analysis & Visualization</h3>
+      <p>EDA, Feature Engineering, Excel (Advanced), Tableau, Power BI</p>
+
+      <h3>Tools & Other Skills</h3>
+      <p>JIRA, VS Code, Agile/Scrum, Debugging, Unit Testing</p>
+    </section>
+    <section id="achievements">
+      <h2>🏆 Achievements</h2>
+
+      <h3>Six Sigma & Automation Impact – HCL Technologies</h3>
+      <p>Acknowledged for contributing to <b><i style="font-size: medium; font-family: cursive;">Value Creation through
+            Automation</i></b> and awarded *Six Sigma Recognition* for process improvement initiatives.</p>
+
+      <h3>Event Coordination – HCL Technologies</h3>
+      <p>Appreciated as a <b><i style="font-size: medium; font-family: cursive;">Core Team Member</i></b> for
+        successfully organizing a high-impact corporate event, ensuring smooth execution and high engagement.</p>
+      <h3>CodeWing Project Excellence</h3>
+      <p>Recognized as one of the <b><i style="font-size: medium; font-family: cursive;">Top Projects</i></b> during the
+        course for innovative implementation and impactful design.</p>
+
+      <h3>College Volleyball Team Captain</h3>
+      <p>Led the college volleyball team, fostering team spirit, discipline, and representing the institute in
+        inter-college tournaments.</p>
+      <h3>Hostel Sports Secretary</h3>
+      <p>Elected <b><i style="font-size: medium; font-family: cursive;">Hostel Sports Secretary</i></b> , responsible
+        for planning and organizing multiple sports events, encouraging student participation, and managing resources.
+      </p>
+
+    </section>
+     <!-- <section id="certifications">
+      <h2>Certifications</h2>
+
+      <h3>Six Sigma & Automation Impact – HCL Technologies</h3>
+      <p>Acknowledged for contributing to <b><i style="font-size: medium; font-family: cursive;">Value Creation through
+            Automation</i></b> and awarded *Six Sigma Recognition* for process improvement initiatives.</p>
+
+      <h3>Event Coordination – HCL Technologies</h3>
+      <p>Appreciated as a <b><i style="font-size: medium; font-family: cursive;">Core Team Member</i></b> for
+        successfully organizing a high-impact corporate event, ensuring smooth execution and high engagement.</p>
+      <h3>CodeWing Project Excellence</h3>
+      <p>Recognized as one of the <b><i style="font-size: medium; font-family: cursive;">Top Projects</i></b> during the
+        course for innovative implementation and impactful design.</p>
+
+      <h3>College Volleyball Team Captain</h3>
+      <p>Led the college volleyball team, fostering team spirit, discipline, and representing the institute in
+        inter-college tournaments.</p>
+      <h3>Hostel Sports Secretary</h3>
+      <p>Elected <b><i style="font-size: medium; font-family: cursive;">Hostel Sports Secretary</i></b> , responsible
+        for planning and organizing multiple sports events, encouraging student participation, and managing resources.
+      </p>
+
+    </section> -->
+  </main>
+  <!-- FOOTER -->
+  <footer>
+    <section id="contact">
       <h2>Contact</h2>
       <p>
-        <img
-          src="images/email.png"
-          alt="Email "
-          style="width: 17px; height: 17px; vertical-align: middle"
-        /><strong> Email:</strong>
-        <a href="mailto:patidarsaloni22@gmail.com">patidarsaloni22@gmail.com</a
-        >|
-        <img
-          src="images/call.png"
-          alt="Phone "
-          style="width: 17px; height: 17px; vertical-align: middle"
-        /><strong> Phone:</strong>
+        <img src="images/email.png" alt="Email " style="width: 17px; height: 17px; vertical-align: middle" /><strong>
+          Email:</strong>
+        <a href="mailto:patidarsaloni22@gmail.com">patidarsaloni22@gmail.com</a>|
+        <img src="images/call.png" alt="Phone " style="width: 17px; height: 17px; vertical-align: middle" /><strong>
+          Phone:</strong>
         <a href="tel:+916378647757">+91 6378647757</a>
       </p>
       <br /><br />
       <p>© 2025 Saloni Patidar | Crafted with passion in shades of blue 💙</p>
-    </footer>
+    </section>
+  </footer>
 
-    <script src="script.js"></script>
-  </body>
+  <script src="script.js"></script>
+</body>
+
 </html>
